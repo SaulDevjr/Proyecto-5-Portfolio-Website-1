@@ -65,17 +65,18 @@ body {
   width: 20px;
   margin-bottom: 10px;
   animation: 1s ease forwards;
-  animation-delay: 1.5s;
+  animation-delay: 1.2s;
 }
 .navbar .active {
   color: #00abf0;
 }
+
 .home {
   display: flex;
   align-items: center;
   width: 1200px;
   height: 640px;
-  background: url("/yo.png") no-repeat center;
+  background: url("/img/yo.png") no-repeat center;
   background-size: contain;
   background-position: 280px 0px;
   padding: 0% 10%;
@@ -220,7 +221,8 @@ body {
   justify-items: space-around;
   position: absolute;
   bottom: 25px;
-  width: 160px;
+  width: 185px;
+  box-sizing: border-box;
 }
 
 .home-sci::before {
@@ -241,12 +243,13 @@ body {
   display: inline-flex;
   justify-content: space-around;
   bottom: 0;
+  margin-right: 15px;
   align-items: center;
-  width: 33px;
-  height: 33px;
+  width: 30px;
+  height: 30px;
   background: transparent;
   border: solid #00abf0;
-  border-radius: 50%;
+  border-radius: 30%;
   font-size: 20px;
   color: #65d4ff;
   text-decoration: none;
@@ -256,6 +259,7 @@ body {
 
 .home-sci a:hover {
   color: #081b29;
+  border: 2px solid white;
   box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.411);
 }
 
